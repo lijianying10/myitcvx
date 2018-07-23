@@ -11,6 +11,7 @@ notifications:
 matrix:
   include:
     - env: CHROMEDRIVER_VERSION=2.40 CHROME_CHANNEL=beta GO_VERSION=go1.10.3
+    - env: CHROMEDRIVER_VERSION=2.40 CHROME_CHANNEL=beta GO_VERSION=5f5402b72313463a25c1bcacd559254834690d7e
 
 services:
   - docker
